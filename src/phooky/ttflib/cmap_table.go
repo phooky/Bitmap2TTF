@@ -1,6 +1,6 @@
 package ttflib
 
-import "encoding/binary"
+//import "encoding/binary"
 
 type CmapFormat0 struct {
 }
@@ -10,7 +10,7 @@ type CmapTable struct {
 }
 
 func (tab *CmapTable) FromBlob(b []byte) (uint32) {
-	
+	return 0
 }
 
 func (tab *CmapTable) ToBlob() (b []byte) {

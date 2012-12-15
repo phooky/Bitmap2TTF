@@ -6,7 +6,7 @@ import "fmt"
 
 func MakeTable(tag uint32) (TtfTable) {
 	switch tag {
-	case NameToTag("cmap"): return new(CmapTable)
+	//case NameToTag("cmap"): return new(CmapTable)
 	}
 	return new(BlobTable)
 }
